@@ -14,7 +14,9 @@ systemctl enable docker
 systemctl start docker
 usermod -aG docker ubuntu
 
-## Extra packages install
+## Extra packages 
+## apt install docker
+apt-get install docker-ce -cli conntainer,io
 apt install vim git -y
 
 # run jenkins
